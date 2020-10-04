@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+coverage = "*"
+mixer = "*"
+pre-commit = "*"
+
+[packages]
+django = ">=3.0,<=4.0"
+environs = "*"
+celery = ">=4.4,<=5.0"
+argon2-cffi = "*"
+djangorestframework = "==3.11.1"
+django-filter = "*"
+djangorestframework-simplejwt = "*"
+djangorestframework-camel-case = "*"
+gunicorn = "*"
+psycopg2-binary = "*"
+drf-yasg = "*"
+redis = "*"
+mixer = "*"
+
+[requires]
+python_version = "3.8"
