@@ -21,4 +21,3 @@ class PostSerializers(serializers.ModelSerializer):
         post = super().create(validated_data)
 
         return post
-

@@ -43,4 +43,3 @@ urlpatterns = [
 
     path('v1/', include((api_urlpatterns_v1, 'v1'))),
 ]
-

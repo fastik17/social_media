@@ -41,4 +41,3 @@ def get_post(obj, user):
     obj_type = ContentType.objects.get_for_model(obj)
     return Post.objects.filter(
         likes__content_type=obj_type, likes__object_id=obj.id, user=user)
-

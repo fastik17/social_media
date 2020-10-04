@@ -105,5 +105,3 @@ class TestSignUpView(BaseAPITest):
         self.required_data['email'] = email
         resp = self.client.post(reverse('v1:auth:sign-up'), data=self.required_data)
         self.assertEqual(resp.status_code, 400)
-
-
